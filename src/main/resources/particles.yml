@@ -1,0 +1,23 @@
+particles:
+  failParticle:
+    type: PARTICLE_EXPLOSION
+    ticks: 1
+    timeUpdate: 1
+    radius: 0.1
+    count: 300
+    speed: 0.15
+    offset-x: 0.5
+    offset-y: 0.7
+    offset-z: 0.5
+    particle: SOUL
+  successParticle:
+    type: PARTICLE_EXPLOSION
+    ticks: 1
+    timeUpdate: 1
+    radius: 0.1
+    count: 300
+    speed: 0.15
+    offset-x: 0.5
+    offset-y: 0.7
+    offset-z: 0.5
+    particle: SOUL

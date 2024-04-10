@@ -1,0 +1,40 @@
+# Список заблокированных яиц (материалы)
+blocked:
+  - "CREEPER_SPAWN_EGG"
+
+chances:
+  # Материал яйца и шанс от 0 до 100
+  ZOMBIE_SPAWN_EGG: 50
+
+sounds:
+  notAllowed:
+    enabled: true
+    type: ENTITY_VILLAGER_NO
+    pitch: 1
+    volume: 1
+  fail:
+    enabled: true
+    type: ENTITY_VILLAGER_NO
+    pitch: 1
+    volume: 1
+  success:
+    enabled: true
+    type: ENTITY_VILLAGER_YES
+    pitch: 1
+    volume: 1
+
+particles:
+  notAllowed:
+    enabled: true
+    name: failParticle # Название партикла из particles.yml
+  fail:
+    enabled: true
+    name: failParticle
+  success:
+    enabled: true
+    name: successParticle
+
+messages:
+  notAllowed: "Этого моба нельзя поместить в спавнер!"
+  fail: "Вам не удалось поместить этого моба в спавнер!"
+  success: "Вы успешно поместили этого моба в спавнер!"
