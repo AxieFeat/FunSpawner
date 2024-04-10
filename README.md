@@ -1,2 +1,2 @@
 # FunSpawner
-Spawner blocker for Minecraft server
+All information avaliable in wiki - https://funspawner.arial.su
